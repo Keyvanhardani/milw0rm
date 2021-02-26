@@ -1,0 +1,903 @@
+/*
+
+Theme Name: Keyvan
+Author: Keyvan Hardani
+Author URI: http://hardani.de
+Description:  Wordpress Theme like Milw0rm Exploit Database.
+Version: 1.0
+Tags: Keyvan, black, green.
+Text Domain: Keyvan
+Minimal Theme for my site!
+*/
+
+
+
+body {
+
+
+
+	font-size:10px;
+
+
+
+	font-family:Verdana;
+
+
+
+	background-color:#000000;
+
+
+
+	background-image: url(http://i.imgur.com/eHUZ8UX.gif);
+
+
+
+	color:#008000;
+
+
+
+	scrollbar-highlight-color:#008000;
+
+
+
+	scrollbar-shadow-color:#008000;
+
+
+
+	scrollbar-3dlight-color:#000000;
+
+
+
+	scrollbar-arrow-color:#000000;
+
+
+
+	scrollbar-track-color:#000000;
+
+
+
+	scrollbar-darkshadow-color:#000000;
+
+
+
+	scrollbar-face-color:#000000;
+
+
+
+}
+
+
+
+
+
+
+
+textarea {
+
+
+
+	border-top-width: 1px; 
+
+
+
+	font-weight: bold; 
+
+
+
+	border-left-width: 1px; 
+
+
+
+	font-size: 10px; 
+
+
+
+	border-left-color: #008000; 
+
+
+
+	background: #004000; 
+
+
+
+	border-bottom-width: 1px; 
+
+
+
+	border-bottom-color: #008000; 
+
+
+
+	color: #00ff00; 
+
+
+
+	border-top-color: #008000; 
+
+
+
+	font-family: verdana; 
+
+
+
+	border-right-width: 1px; 
+
+
+
+	border-right-color: #008000;
+
+
+
+}
+
+
+
+p {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+dl {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+dt {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+dd {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+td {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+th {
+
+
+
+	font-size: 10px; 
+
+
+
+	font-family: verdana;
+
+
+
+}
+
+
+
+.submit {
+
+
+
+	border-top-width: 1px; 
+
+
+
+	font-weight: bold; 
+
+
+
+	border-left-width: 1px; 
+
+
+
+	font-size: 10px; 
+
+
+
+	border-left-color: #008000; 
+
+
+
+	background: #004000; 
+
+
+
+	border-bottom-width: 1px; 
+
+
+
+	border-bottom-color: #008000; 
+
+
+
+	color: #00ff00; 
+
+
+
+	border-top-color: #008000; 
+
+
+
+	font-family: verdana; 
+
+
+
+	border-right-width: 1px; 
+
+
+
+	border-right-color: #008000;
+
+
+
+}
+
+
+
+a:link {
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+a:visited {
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+a:active {
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+a:hover {
+
+
+
+	color: #00ff00; 
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+b.hl1 {
+
+
+
+	font-weight: bold;
+
+
+
+}
+
+
+
+b.hl2 {
+
+
+
+	font-weight: bold; 
+
+
+
+	font-style: italic;
+
+
+
+}
+
+
+
+.sr {
+
+
+
+	font-size: 10px; 
+
+
+
+	line-height: 14px;
+
+
+
+}
+
+
+
+.verify {
+
+
+
+        padding: 0;
+
+
+
+        margin: 2px 2px 10px 10px;
+
+
+
+        vertical-align:middle;
+
+
+
+        border: 1px solid #008000;
+
+
+
+}
+
+
+
+.style12 {
+
+
+
+	font-size: 9px; 
+
+
+
+	color: #00cc00; 
+
+
+
+}
+
+
+
+.style13 {
+
+
+
+	font-size: 9px; 
+
+
+
+	font-weight: bold; 
+
+
+
+}
+
+
+
+.style14 {
+
+
+
+	font-size: 9px;
+
+
+
+}
+
+
+
+.style15 {
+
+
+
+	font-size: 9px; 
+
+
+
+	color: #d6ef39; 
+
+
+
+}
+
+
+
+.style16 {
+
+
+
+	font-size: 9px;
+
+
+
+}
+
+
+
+.style17 {
+
+
+
+	font-size: 9px; 
+
+
+
+	color: #F87431; 
+
+
+
+}
+
+
+
+.main {
+
+
+
+	background-color: #000000;
+
+
+
+	text-align: center;
+
+
+
+	border: thin solid #008000;
+
+
+
+}
+
+
+
+
+
+
+
+.footer {
+
+
+
+	font-size: 11px;
+
+
+
+	font-family: 'courier new';
+
+
+
+	}
+
+
+
+	
+
+
+
+.alignleft {float:left;}
+
+
+
+.alignright {float:right;}
+
+
+
+
+
+
+
+.navigation {
+
+
+
+	height:10px;
+
+
+
+	margin-top:10px;
+
+
+
+	}
+
+
+
+	BODY 
+
+
+
+{  
+
+
+
+font-size:10px;
+
+
+
+font-family:Verdana;
+
+
+
+background-color:#000000;
+
+
+
+background-image: url(http://i.imgur.com/eHUZ8UX.gif);
+
+
+
+color:#008000;
+
+
+
+scrollbar-highlight-color:#008000;
+
+
+
+scrollbar-shadow-color:#008000;
+
+
+
+scrollbar-3dlight-color:#000000;
+
+
+
+scrollbar-arrow-color:#000000;
+
+
+
+scrollbar-track-color:#000000;
+
+
+
+scrollbar-darkshadow-color:#000000;
+
+
+
+scrollbar-face-color:#000000;
+
+
+
+}
+
+
+
+PRE 
+
+
+
+{  
+
+
+
+font-size: 10px; 
+
+
+
+font-family: Verdana; font-weight:normal;
+
+
+
+}
+
+
+
+INPUT 
+
+
+
+{  
+
+
+
+font-family:Verdana;
+
+
+
+font-size:10px;
+
+
+
+font-weight:bold;
+
+
+
+background:#004000;
+
+
+
+color:#00ff00;
+
+
+
+border-top:1px solid #002c00;
+
+
+
+border-left:1px solid #002c00;
+
+
+
+border-right:1px solid #008000;
+
+
+
+border-bottom:1px solid #008000;
+
+
+
+}
+
+
+
+SELECT 
+
+
+
+{  
+
+
+
+font-family:Verdana;
+
+
+
+font-size:10px;
+
+
+
+font-weight:bold;
+
+
+
+background:#004000;
+
+
+
+color:#00ff00;
+
+
+
+border-top:1px solid #002c00;
+
+
+
+border-left:1px solid #002c00;
+
+
+
+border-right:1px solid #008000;
+
+
+
+border-bottom:1px solid #008000;
+
+
+
+}
+
+
+
+TEXTAREA 
+
+
+
+{  
+
+
+
+font-family:Verdana;
+
+
+
+font-size:10px;
+
+
+
+font-weight:bold;
+
+
+
+background:#004000;
+
+
+
+color:#00ff00;
+
+
+
+border-top:1px solid #002c00;
+
+
+
+border-left:1px solid #002c00;
+
+
+
+border-right:1px solid #008000;
+
+
+
+border-bottom:1px solid #008000;
+
+
+
+}
+
+
+
+IMG 
+
+
+
+{  
+
+
+
+border:0px;
+
+
+
+}
+
+
+
+P 
+
+
+
+{  
+
+
+
+text-align:center; 
+
+
+
+margin:0px;
+
+
+
+}
+
+
+
+P STRONG 
+
+
+
+{  
+
+
+
+line-height:14px;
+
+
+
+}
+
+
+
+A, .link 
+
+
+
+{  
+
+
+
+color:#00c000;
+
+
+
+font-size:10px;
+
+
+
+text-decoration:none; 
+
+
+
+cursor:pointer;
+
+
+
+}
+
+
+
+A:hover, .link:hover 
+
+
+
+{  
+
+
+
+color:#00ff00;
+
+
+
+}
+
+
+
+.search {
+
+
+
+	margin-top:10px;
+
+
+
+	margin-top:10px;
+
+
+
+	}
